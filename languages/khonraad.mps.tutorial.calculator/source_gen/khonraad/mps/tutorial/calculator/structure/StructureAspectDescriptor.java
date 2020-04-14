@@ -11,9 +11,13 @@ import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
+import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptCalculator = createDescriptorForCalculator();
+  /*package*/ final ConceptDescriptor myConceptInputField = createDescriptorForInputField();
+  /*package*/ final ConceptDescriptor myConceptInputFieldReference = createDescriptorForInputFieldReference();
+  /*package*/ final ConceptDescriptor myConceptOutputField = createDescriptorForOutputField();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -24,11 +28,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   @Override
   public void reportDependencies(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.Dependencies deps) {
     deps.extendedLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core");
+    deps.extendedLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage");
+    deps.aggregatedLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage");
   }
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptCalculator);
+    return Arrays.asList(myConceptCalculator, myConceptInputField, myConceptInputFieldReference, myConceptOutputField);
   }
 
   @Override
@@ -37,6 +43,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myIndexSwitch.index(id)) {
       case LanguageConceptSwitch.Calculator:
         return myConceptCalculator;
+      case LanguageConceptSwitch.InputField:
+        return myConceptInputField;
+      case LanguageConceptSwitch.InputFieldReference:
+        return myConceptInputFieldReference;
+      case LanguageConceptSwitch.OutputField:
+        return myConceptOutputField;
       default:
         return null;
     }
@@ -57,6 +69,34 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:21576557-f0a1-483f-809e-03df5b1e3103(khonraad.mps.tutorial.calculator.structure)/6806273752687074403");
     b.version(2);
+    b.aggregate("inputFields", 0x5e74bdeab8fae2e3L).target(0xa943d876fd5b46bbL, 0x8e131fe5df4f494eL, 0x5e74bdeab8fae2acL).optional(true).ordered(true).multiple(true).origin("6806273752687108835").done();
+    b.aggregate("outputFields", 0x5e74bdeab8fb0c09L).target(0xa943d876fd5b46bbL, 0x8e131fe5df4f494eL, 0x5e74bdeab8fb0beeL).optional(true).ordered(true).multiple(true).origin("6806273752687119369").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForInputField() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("khonraad.mps.tutorial.calculator", "InputField", 0xa943d876fd5b46bbL, 0x8e131fe5df4f494eL, 0x5e74bdeab8fae2acL);
+    b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:21576557-f0a1-483f-809e-03df5b1e3103(khonraad.mps.tutorial.calculator.structure)/6806273752687108780");
+    b.version(2);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForInputFieldReference() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("khonraad.mps.tutorial.calculator", "InputFieldReference", 0xa943d876fd5b46bbL, 0x8e131fe5df4f494eL, 0x5e74bdeab8fcbdb5L);
+    b.class_(false, false, false);
+    b.super_("jetbrains.mps.baseLanguage.structure.Expression", 0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
+    b.origin("r:21576557-f0a1-483f-809e-03df5b1e3103(khonraad.mps.tutorial.calculator.structure)/6806273752687230389");
+    b.version(2);
+    b.associate("field", 0x5e74bdeab8fcbdb6L).target(0xa943d876fd5b46bbL, 0x8e131fe5df4f494eL, 0x5e74bdeab8fae2acL).optional(false).origin("6806273752687230390").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForOutputField() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("khonraad.mps.tutorial.calculator", "OutputField", 0xa943d876fd5b46bbL, 0x8e131fe5df4f494eL, 0x5e74bdeab8fb0beeL);
+    b.class_(false, false, false);
+    b.origin("r:21576557-f0a1-483f-809e-03df5b1e3103(khonraad.mps.tutorial.calculator.structure)/6806273752687119342");
+    b.version(2);
+    b.property("label", 0x5e74bdeab8fdb92eL).type(PrimitiveTypeId.STRING).origin("6806273752687294766").done();
+    b.aggregate("expression", 0x5e74bdeab8fb4e6bL).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("6806273752687136363").done();
     return b.create();
   }
 }
