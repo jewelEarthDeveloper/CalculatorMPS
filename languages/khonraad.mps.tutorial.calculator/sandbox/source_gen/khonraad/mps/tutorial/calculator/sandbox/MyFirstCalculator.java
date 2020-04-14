@@ -64,6 +64,15 @@ public class MyFirstCalculator extends JFrame {
   }
 
   public void update() {
+    int i_a = 0;
+    int i_b = 0;
+    int i_c = 0;
+    try {
+      i_a = Integer.parseInt(inputField_f32pmb_a.getText());
+      i_b = Integer.parseInt(inputField_f32pmb_b.getText());
+      i_c = Integer.parseInt(inputField_f32pmb_c.getText());
+    } catch (NumberFormatException e) {
+    }
   }
 
   public static void main(String[] args) {

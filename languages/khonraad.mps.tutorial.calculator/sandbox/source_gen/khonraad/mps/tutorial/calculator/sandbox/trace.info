@@ -4,8 +4,10 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164879751025:jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
   <root nodeRef="r:309e0261-d5b1-4e34-90da-5b5bef325f5f(khonraad.mps.tutorial.calculator.sandbox)/6806273752687108779">
     <file name="MyFirstCalculator.java">
       <node id="6806273752687108779" at="16,48,17,15" concept="1" />
@@ -28,34 +30,44 @@
       <node id="6806273752687108779" at="48,29,49,68" concept="1" />
       <node id="6806273752687108779" at="49,68,50,29" concept="1" />
       <node id="6806273752687108779" at="50,29,51,29" concept="1" />
-      <node id="6806273752687108779" at="51,29,52,0" concept="4" />
+      <node id="6806273752687108779" at="51,29,52,0" concept="5" />
       <node id="6806273752687108779" at="52,0,53,40" concept="1" />
       <node id="6806273752687108779" at="53,40,54,30" concept="1" />
       <node id="6806273752687108779" at="54,30,55,45" concept="1" />
       <node id="6806273752687108779" at="55,45,56,30" concept="1" />
       <node id="6806273752687108779" at="56,30,57,42" concept="1" />
       <node id="6806273752687108779" at="57,42,58,30" concept="1" />
-      <node id="6806273752687108779" at="58,30,59,0" concept="4" />
+      <node id="6806273752687108779" at="58,30,59,0" concept="5" />
       <node id="6806273752687108779" at="59,0,60,13" concept="1" />
       <node id="6806273752687108779" at="60,13,61,44" concept="1" />
       <node id="6806273752687108779" at="61,44,62,11" concept="1" />
       <node id="6806273752687108779" at="62,11,63,21" concept="1" />
-      <node id="6806273752687108779" at="72,25,73,32" concept="1" />
-      <node id="6806273752687108779" at="66,0,68,0" concept="3" trace="update#()V" />
+      <node id="6806273752687119333" at="66,24,67,16" concept="4" />
+      <node id="6806273752687119335" at="67,16,68,16" concept="4" />
+      <node id="6806273752687119338" at="68,16,69,16" concept="4" />
+      <node id="6806273752687119333" at="70,9,71,60" concept="1" />
+      <node id="6806273752687119335" at="71,60,72,60" concept="1" />
+      <node id="6806273752687119338" at="72,60,73,60" concept="1" />
+      <node id="6806273752687108779" at="81,25,82,32" concept="1" />
       <node id="6806273752687108779" at="15,0,19,0" concept="3" trace="insertUpdate#(Ljavax/swing/event/DocumentEvent;)V" />
       <node id="6806273752687108779" at="20,0,24,0" concept="3" trace="removeUpdate#(Ljavax/swing/event/DocumentEvent;)V" />
       <node id="6806273752687108779" at="25,0,29,0" concept="3" trace="changedUpdate#(Ljavax/swing/event/DocumentEvent;)V" />
-      <node id="6806273752687108779" at="71,0,75,0" concept="3" trace="run#()V" />
-      <node id="6806273752687108779" at="69,42,75,7" concept="1" />
-      <node id="6806273752687108779" at="69,0,77,0" concept="5" trace="main#([Ljava/lang/String;)V" />
+      <node id="6806273752687108779" at="80,0,84,0" concept="3" trace="run#()V" />
+      <node id="6806273752687108779" at="69,16,75,5" concept="7" />
+      <node id="6806273752687108779" at="78,42,84,7" concept="1" />
+      <node id="6806273752687108779" at="78,0,86,0" concept="6" trace="main#([Ljava/lang/String;)V" />
+      <node id="6806273752687108779" at="66,0,77,0" concept="3" trace="update#()V" />
       <node id="6806273752687108779" at="14,0,30,0" concept="2" trace="listener" />
       <node id="6806273752687108779" at="40,0,65,0" concept="0" trace="MyFirstCalculator#()V" />
-      <scope id="6806273752687108779" at="66,24,66,24" />
+      <scope id="6806273752687108779" at="74,0,74,39">
+        <var name="e" id="6806273752687108779" />
+      </scope>
+      <scope id="6806273752687108779" at="74,39,74,39" />
       <scope id="6806273752687108779" at="16,48,17,15" />
       <scope id="6806273752687108779" at="21,48,22,15" />
       <scope id="6806273752687108779" at="26,49,27,15" />
-      <scope id="6806273752687108779" at="72,25,73,32" />
-      <scope id="6806273752687108779" at="66,0,68,0" />
+      <scope id="6806273752687108779" at="81,25,82,32" />
+      <scope id="6806273752687108779" at="70,9,73,60" />
       <scope id="6806273752687108779" at="15,0,19,0">
         <var name="p0" id="6806273752687108779" />
       </scope>
@@ -65,16 +77,22 @@
       <scope id="6806273752687108779" at="25,0,29,0">
         <var name="p0" id="6806273752687108779" />
       </scope>
-      <scope id="6806273752687108779" at="71,0,75,0" />
-      <scope id="6806273752687108779" at="69,42,75,7" />
-      <scope id="6806273752687108779" at="69,0,77,0">
+      <scope id="6806273752687108779" at="80,0,84,0" />
+      <scope id="6806273752687108779" at="78,42,84,7" />
+      <scope id="6806273752687108779" at="78,0,86,0">
         <var name="args" id="6806273752687108779" />
       </scope>
+      <scope id="6806273752687108779" at="66,24,75,5">
+        <var name="i_a" id="6806273752687119333" />
+        <var name="i_b" id="6806273752687119335" />
+        <var name="i_c" id="6806273752687119338" />
+      </scope>
+      <scope id="6806273752687108779" at="66,0,77,0" />
       <scope id="6806273752687108779" at="40,30,63,21" />
       <scope id="6806273752687108779" at="40,0,65,0" />
-      <unit id="6806273752687108779" at="70,35,75,5" name="khonraad.mps.tutorial.calculator.sandbox.MyFirstCalculator$2" />
+      <unit id="6806273752687108779" at="79,35,84,5" name="khonraad.mps.tutorial.calculator.sandbox.MyFirstCalculator$2" />
       <unit id="6806273752687108779" at="14,42,29,3" name="khonraad.mps.tutorial.calculator.sandbox.MyFirstCalculator$1" />
-      <unit id="6806273752687108779" at="13,0,78,0" name="khonraad.mps.tutorial.calculator.sandbox.MyFirstCalculator" />
+      <unit id="6806273752687108779" at="13,0,87,0" name="khonraad.mps.tutorial.calculator.sandbox.MyFirstCalculator" />
     </file>
   </root>
 </debug-info>

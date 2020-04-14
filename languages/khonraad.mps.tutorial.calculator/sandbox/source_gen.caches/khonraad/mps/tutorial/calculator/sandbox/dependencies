@@ -2,6 +2,8 @@
 <dependenciesRoot>
   <dependency className="khonraad.mps.tutorial.calculator.sandbox.MyFirstCalculator">
     <classNode dependClassName="java.awt.GridLayout" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.NumberFormatException" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.Runnable" />
     <classNode dependClassName="java.lang.String" />
