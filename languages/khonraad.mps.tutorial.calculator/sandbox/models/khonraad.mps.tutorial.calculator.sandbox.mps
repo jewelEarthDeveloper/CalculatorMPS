@@ -21,7 +21,6 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
       <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
@@ -34,6 +33,11 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
+        <child id="1163668914799" name="condition" index="3K4Cdx" />
+        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
+        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -43,6 +47,20 @@
   </registry>
   <node concept="3AzI69" id="5TOJuESYIaF">
     <property role="TrG5h" value="MyFirstCalculator" />
+    <node concept="3AzVo4" id="4WZ8K_oPQn1" role="3AzV7z">
+      <property role="3Aygj4" value="thing" />
+      <node concept="3K4zz7" id="4WZ8K_oPQNP" role="3AzZe1">
+        <node concept="3cmrfG" id="4WZ8K_oPQXf" role="3K4E3e">
+          <property role="3cmrfH" value="10" />
+        </node>
+        <node concept="3cmrfG" id="4WZ8K_oPQYp" role="3K4GZi">
+          <property role="3cmrfH" value="20" />
+        </node>
+        <node concept="3Ay01v" id="4WZ8K_oPQoE" role="3K4Cdx">
+          <ref role="3Ay01s" node="5TOJuESYKJ_" resolve="width" />
+        </node>
+      </node>
+    </node>
     <node concept="3Az_X6" id="5TOJuESYKJ_" role="3Az_W9">
       <property role="TrG5h" value="width" />
     </node>
@@ -115,26 +133,8 @@
     </node>
     <node concept="3AzVo4" id="4WZ8K_oOFYi" role="3AzV7z">
       <property role="3Aygj4" value="my Pay" />
-      <node concept="3cpWs3" id="4WZ8K_oPLKy" role="3AzZe1">
-        <node concept="33vP2n" id="4WZ8K_oPLKz" role="3uHU7w" />
-        <node concept="3cpWs3" id="4WZ8K_oOGyk" role="3uHU7B">
-          <node concept="17qRlL" id="4WZ8K_oOG6U" role="3uHU7B">
-            <node concept="3Ay01v" id="4WZ8K_oOG5W" role="3uHU7B">
-              <ref role="3Ay01s" node="4WZ8K_oOFQB" resolve="Java Hours" />
-            </node>
-            <node concept="3cmrfG" id="4WZ8K_oOG73" role="3uHU7w">
-              <property role="3cmrfH" value="10" />
-            </node>
-          </node>
-          <node concept="17qRlL" id="4WZ8K_oOG$4" role="3uHU7w">
-            <node concept="3Ay01v" id="4WZ8K_oOGzt" role="3uHU7B">
-              <ref role="3Ay01s" node="4WZ8K_oOFUs" resolve="PHP Hours" />
-            </node>
-            <node concept="3cmrfG" id="4WZ8K_oOG_P" role="3uHU7w">
-              <property role="3cmrfH" value="6" />
-            </node>
-          </node>
-        </node>
+      <node concept="3cmrfG" id="4WZ8K_oOG_P" role="3AzZe1">
+        <property role="3cmrfH" value="6" />
       </node>
     </node>
   </node>

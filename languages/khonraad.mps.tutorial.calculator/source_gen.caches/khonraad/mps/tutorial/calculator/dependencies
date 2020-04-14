@@ -5,6 +5,7 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
@@ -18,6 +19,7 @@
     <classNode dependClassName="khonraad.mps.tutorial.calculator.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="khonraad.mps.tutorial.calculator.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="khonraad.mps.tutorial.calculator.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="khonraad.mps.tutorial.calculator.typesystem.TypesystemDescriptor" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SLanguage" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
   </dependency>
