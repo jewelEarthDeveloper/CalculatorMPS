@@ -73,6 +73,10 @@ public class MyFirstCalculator extends JFrame {
       i_c = Integer.parseInt(inputField_f32pmb_c.getText());
     } catch (NumberFormatException e) {
     }
+
+    outputField_f32pmb_a.setText("" + (i_b * i_a));
+    outputField_f32pmb_b.setText("" + ((i_a * 2) + (i_b * 2)));
+    outputField_f32pmb_c.setText("" + (i_b * i_a * i_c));
   }
 
   public static void main(String[] args) {
