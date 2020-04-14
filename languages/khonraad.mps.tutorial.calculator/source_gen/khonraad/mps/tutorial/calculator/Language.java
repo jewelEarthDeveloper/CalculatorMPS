@@ -7,6 +7,11 @@ import jetbrains.mps.smodel.adapter.ids.SLanguageId;
 import java.util.Collection;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.runtime.ILanguageAspect;
+import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
+import khonraad.mps.tutorial.calculator.editor.EditorAspectDescriptorImpl;
+import jetbrains.mps.smodel.runtime.StructureAspectDescriptor;
+import jetbrains.mps.smodel.runtime.ConceptPresentationAspect;
+import khonraad.mps.tutorial.calculator.structure.ConceptPresentationAspectImpl;
 
 public class Language extends LanguageRuntime {
   private final SLanguageId myId;
@@ -38,6 +43,15 @@ public class Language extends LanguageRuntime {
 
 
     // AP: legacy part, must be migrated from switch: please use lang.descriptor mapping label 
+    if (aspectClass == EditorAspectDescriptor.class) {
+      return aspectClass.cast(new EditorAspectDescriptorImpl());
+    }
+    if (aspectClass == StructureAspectDescriptor.class) {
+      return aspectClass.cast(new khonraad.mps.tutorial.calculator.structure.StructureAspectDescriptor());
+    }
+    if (aspectClass == ConceptPresentationAspect.class) {
+      return aspectClass.cast(new ConceptPresentationAspectImpl());
+    }
     return null;
   }
 }

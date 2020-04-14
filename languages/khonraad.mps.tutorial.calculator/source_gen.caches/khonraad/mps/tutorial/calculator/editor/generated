@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="2ucqud6ophs7lzy6jasyh6crc2grry6" />
+<product version="3" modelHash="6vod1qtkuwm9k61awj2jellhrg028qo">
+  <files names="Calculator_Editor.java:Calculator_EditorBuilder_a.java:EditorAspectDescriptorImpl.java" />
+</product>
 
