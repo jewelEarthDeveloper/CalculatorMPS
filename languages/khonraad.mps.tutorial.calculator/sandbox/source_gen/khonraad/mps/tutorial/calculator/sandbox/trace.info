@@ -8,6 +8,82 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164879751025:jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root nodeRef="r:309e0261-d5b1-4e34-90da-5b5bef325f5f(khonraad.mps.tutorial.calculator.sandbox)/5710321375580961944">
+    <file name="MySalaryCalculator.java">
+      <node id="5710321375580961944" at="16,48,17,15" concept="1" />
+      <node id="5710321375580961944" at="21,48,22,15" concept="1" />
+      <node id="5710321375580961944" at="26,49,27,15" concept="1" />
+      <node id="5710321375580962215" at="31,0,32,0" concept="2" trace="inputField_3bq9f0_a" />
+      <node id="5710321375580962460" at="32,0,33,0" concept="2" trace="inputField_3bq9f0_b" />
+      <node id="5710321375580962706" at="34,0,35,0" concept="2" trace="outputField_3bq9f0_a" />
+      <node id="5710321375580961944" at="37,31,38,35" concept="1" />
+      <node id="5710321375580961944" at="38,35,39,36" concept="1" />
+      <node id="5710321375580961944" at="39,36,40,68" concept="1" />
+      <node id="5710321375580961944" at="40,68,41,34" concept="1" />
+      <node id="5710321375580961944" at="41,34,42,29" concept="1" />
+      <node id="5710321375580961944" at="42,29,43,68" concept="1" />
+      <node id="5710321375580961944" at="43,68,44,33" concept="1" />
+      <node id="5710321375580961944" at="44,33,45,29" concept="1" />
+      <node id="5710321375580961944" at="45,29,46,0" concept="5" />
+      <node id="5710321375580961944" at="46,0,47,42" concept="1" />
+      <node id="5710321375580961944" at="47,42,48,30" concept="1" />
+      <node id="5710321375580961944" at="48,30,49,0" concept="5" />
+      <node id="5710321375580961944" at="49,0,50,13" concept="1" />
+      <node id="5710321375580961944" at="50,13,51,44" concept="1" />
+      <node id="5710321375580961944" at="51,44,52,11" concept="1" />
+      <node id="5710321375580961944" at="52,11,53,21" concept="1" />
+      <node id="5710321375580962215" at="56,24,57,18" concept="4" />
+      <node id="5710321375580962460" at="57,18,58,18" concept="4" />
+      <node id="5710321375580962215" at="59,9,60,62" concept="1" />
+      <node id="5710321375580962460" at="60,62,61,62" concept="1" />
+      <node id="5710321375580961944" at="63,5,64,0" concept="5" />
+      <node id="5710321375580962706" at="64,0,65,64" concept="1" />
+      <node id="5710321375580961944" at="71,25,72,33" concept="1" />
+      <node id="5710321375580961944" at="15,0,19,0" concept="3" trace="insertUpdate#(Ljavax/swing/event/DocumentEvent;)V" />
+      <node id="5710321375580961944" at="20,0,24,0" concept="3" trace="removeUpdate#(Ljavax/swing/event/DocumentEvent;)V" />
+      <node id="5710321375580961944" at="25,0,29,0" concept="3" trace="changedUpdate#(Ljavax/swing/event/DocumentEvent;)V" />
+      <node id="5710321375580961944" at="70,0,74,0" concept="3" trace="run#()V" />
+      <node id="5710321375580961944" at="58,18,63,5" concept="7" />
+      <node id="5710321375580961944" at="68,42,74,7" concept="1" />
+      <node id="5710321375580961944" at="68,0,76,0" concept="6" trace="main#([Ljava/lang/String;)V" />
+      <node id="5710321375580961944" at="56,0,67,0" concept="3" trace="update#()V" />
+      <node id="5710321375580961944" at="14,0,30,0" concept="2" trace="listener" />
+      <node id="5710321375580961944" at="37,0,55,0" concept="0" trace="MySalaryCalculator#()V" />
+      <scope id="5710321375580961944" at="62,0,62,39">
+        <var name="e" id="5710321375580961944" />
+      </scope>
+      <scope id="5710321375580961944" at="62,39,62,39" />
+      <scope id="5710321375580961944" at="16,48,17,15" />
+      <scope id="5710321375580961944" at="21,48,22,15" />
+      <scope id="5710321375580961944" at="26,49,27,15" />
+      <scope id="5710321375580961944" at="71,25,72,33" />
+      <scope id="5710321375580961944" at="59,9,61,62" />
+      <scope id="5710321375580961944" at="15,0,19,0">
+        <var name="p0" id="5710321375580961944" />
+      </scope>
+      <scope id="5710321375580961944" at="20,0,24,0">
+        <var name="p0" id="5710321375580961944" />
+      </scope>
+      <scope id="5710321375580961944" at="25,0,29,0">
+        <var name="p0" id="5710321375580961944" />
+      </scope>
+      <scope id="5710321375580961944" at="70,0,74,0" />
+      <scope id="5710321375580961944" at="68,42,74,7" />
+      <scope id="5710321375580961944" at="68,0,76,0">
+        <var name="args" id="5710321375580961944" />
+      </scope>
+      <scope id="5710321375580961944" at="56,24,65,64">
+        <var name="i_a_0" id="5710321375580962215" />
+        <var name="i_b_0" id="5710321375580962460" />
+      </scope>
+      <scope id="5710321375580961944" at="56,0,67,0" />
+      <scope id="5710321375580961944" at="37,31,53,21" />
+      <scope id="5710321375580961944" at="37,0,55,0" />
+      <unit id="5710321375580961944" at="69,35,74,5" name="khonraad.mps.tutorial.calculator.sandbox.MySalaryCalculator$2" />
+      <unit id="5710321375580961944" at="14,42,29,3" name="khonraad.mps.tutorial.calculator.sandbox.MySalaryCalculator$1" />
+      <unit id="5710321375580961944" at="13,0,77,0" name="khonraad.mps.tutorial.calculator.sandbox.MySalaryCalculator" />
+    </file>
+  </root>
   <root nodeRef="r:309e0261-d5b1-4e34-90da-5b5bef325f5f(khonraad.mps.tutorial.calculator.sandbox)/6806273752687108779">
     <file name="MyFirstCalculator.java">
       <node id="6806273752687108779" at="16,48,17,15" concept="1" />

@@ -104,5 +104,35 @@
       </node>
     </node>
   </node>
+  <node concept="3AzI69" id="4WZ8K_oOFMo">
+    <property role="TrG5h" value="MySalaryCalculator" />
+    <node concept="3Az_X6" id="4WZ8K_oOFQB" role="3Az_W9">
+      <property role="TrG5h" value="Java Hours" />
+    </node>
+    <node concept="3Az_X6" id="4WZ8K_oOFUs" role="3Az_W9">
+      <property role="TrG5h" value="PHP Hours" />
+    </node>
+    <node concept="3AzVo4" id="4WZ8K_oOFYi" role="3AzV7z">
+      <property role="3Aygj4" value="my Pay" />
+      <node concept="3cpWs3" id="4WZ8K_oOGyk" role="3AzZe1">
+        <node concept="17qRlL" id="4WZ8K_oOG$4" role="3uHU7w">
+          <node concept="3Ay01v" id="4WZ8K_oOGzt" role="3uHU7B">
+            <ref role="3Ay01s" node="4WZ8K_oOFUs" resolve="PHP Hours" />
+          </node>
+          <node concept="3cmrfG" id="4WZ8K_oOG_P" role="3uHU7w">
+            <property role="3cmrfH" value="6" />
+          </node>
+        </node>
+        <node concept="17qRlL" id="4WZ8K_oOG6U" role="3uHU7B">
+          <node concept="3Ay01v" id="4WZ8K_oOG5W" role="3uHU7B">
+            <ref role="3Ay01s" node="4WZ8K_oOFQB" resolve="Java Hours" />
+          </node>
+          <node concept="3cmrfG" id="4WZ8K_oOG73" role="3uHU7w">
+            <property role="3cmrfH" value="10" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
