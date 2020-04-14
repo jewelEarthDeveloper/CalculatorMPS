@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-71jebn6vpt96p7grjcoj586cla54cr" />
+<product version="3" modelHash="-71jebn6vpt96p7grjcoj586cla54cr">
+  <files names="MyFirstCalculator.java" />
+</product>
 
