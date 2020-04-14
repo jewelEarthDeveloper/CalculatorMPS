@@ -8,9 +8,13 @@
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
+    <classNode dependClassName="khonraad.mps.tutorial.calculator.behavior.BehaviorAspectDescriptor" />
+    <classNode dependClassName="khonraad.mps.tutorial.calculator.constraints.ConstraintsAspectDescriptor" />
     <classNode dependClassName="khonraad.mps.tutorial.calculator.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="khonraad.mps.tutorial.calculator.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="khonraad.mps.tutorial.calculator.structure.StructureAspectDescriptor" />

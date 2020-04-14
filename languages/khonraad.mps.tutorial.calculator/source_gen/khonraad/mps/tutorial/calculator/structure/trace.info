@@ -15,7 +15,7 @@
       <unit at="10,0,34,0" name="khonraad.mps.tutorial.calculator.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="16,0,104,0" name="khonraad.mps.tutorial.calculator.structure.StructureAspectDescriptor" />
+      <unit at="16,0,105,0" name="khonraad.mps.tutorial.calculator.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:21576557-f0a1-483f-809e-03df5b1e3103(khonraad.mps.tutorial.calculator.structure)/6806273752687074403">
@@ -42,17 +42,18 @@
       <node id="6806273752687074403" at="67,177,68,33" concept="0" />
       <node id="6806273752687074403" at="68,33,69,71" concept="0" />
       <node id="6806273752687074403" at="69,71,70,76" concept="0" />
-      <node id="6806273752687074403" at="70,76,71,119" concept="0" />
-      <node id="6806273752687074403" at="71,119,72,17" concept="0" />
-      <node id="6806273752687108835" at="72,17,73,203" concept="0" />
-      <node id="6806273752687119369" at="73,203,74,204" concept="0" />
-      <node id="6806273752687074403" at="74,204,75,22" concept="4" />
-      <node id="6806273752687074403" at="66,0,77,0" concept="6" trace="createDescriptorForCalculator#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="6806273752687074403" at="70,76,71,76" concept="0" />
+      <node id="6806273752687074403" at="71,76,72,119" concept="0" />
+      <node id="6806273752687074403" at="72,119,73,17" concept="0" />
+      <node id="6806273752687108835" at="73,17,74,203" concept="0" />
+      <node id="6806273752687119369" at="74,203,75,204" concept="0" />
+      <node id="6806273752687074403" at="75,204,76,22" concept="4" />
+      <node id="6806273752687074403" at="66,0,78,0" concept="6" trace="createDescriptorForCalculator#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="6806273752687074403" at="44,44,45,35" />
-      <scope id="6806273752687074403" at="66,68,75,22">
+      <scope id="6806273752687074403" at="66,68,76,22">
         <var name="b" id="6806273752687074403" />
       </scope>
-      <scope id="6806273752687074403" at="66,0,77,0" />
+      <scope id="6806273752687074403" at="66,0,78,0" />
     </file>
   </root>
   <root nodeRef="r:21576557-f0a1-483f-809e-03df5b1e3103(khonraad.mps.tutorial.calculator.structure)/6806273752687108780">
@@ -75,18 +76,18 @@
     <file name="StructureAspectDescriptor.java">
       <node id="6806273752687108780" at="18,0,19,0" concept="1" trace="myConceptInputField" />
       <node id="6806273752687108780" at="46,44,47,35" concept="4" />
-      <node id="6806273752687108780" at="77,68,78,177" concept="3" />
-      <node id="6806273752687108780" at="78,177,79,34" concept="0" />
-      <node id="6806273752687108780" at="79,34,80,71" concept="0" />
-      <node id="6806273752687108780" at="80,71,81,119" concept="0" />
-      <node id="6806273752687108780" at="81,119,82,17" concept="0" />
-      <node id="6806273752687108780" at="82,17,83,22" concept="4" />
-      <node id="6806273752687108780" at="77,0,85,0" concept="6" trace="createDescriptorForInputField#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="6806273752687108780" at="78,68,79,177" concept="3" />
+      <node id="6806273752687108780" at="79,177,80,34" concept="0" />
+      <node id="6806273752687108780" at="80,34,81,71" concept="0" />
+      <node id="6806273752687108780" at="81,71,82,119" concept="0" />
+      <node id="6806273752687108780" at="82,119,83,17" concept="0" />
+      <node id="6806273752687108780" at="83,17,84,22" concept="4" />
+      <node id="6806273752687108780" at="78,0,86,0" concept="6" trace="createDescriptorForInputField#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="6806273752687108780" at="46,44,47,35" />
-      <scope id="6806273752687108780" at="77,68,83,22">
+      <scope id="6806273752687108780" at="78,68,84,22">
         <var name="b" id="6806273752687108780" />
       </scope>
-      <scope id="6806273752687108780" at="77,0,85,0" />
+      <scope id="6806273752687108780" at="78,0,86,0" />
     </file>
   </root>
   <root nodeRef="r:21576557-f0a1-483f-809e-03df5b1e3103(khonraad.mps.tutorial.calculator.structure)/6806273752687119342">
@@ -109,19 +110,19 @@
     <file name="StructureAspectDescriptor.java">
       <node id="6806273752687119342" at="20,0,21,0" concept="1" trace="myConceptOutputField" />
       <node id="6806273752687119342" at="50,45,51,36" concept="4" />
-      <node id="6806273752687119342" at="94,69,95,178" concept="3" />
-      <node id="6806273752687119342" at="95,178,96,34" concept="0" />
-      <node id="6806273752687119342" at="96,34,97,119" concept="0" />
-      <node id="6806273752687119342" at="97,119,98,17" concept="0" />
-      <node id="6806273752687294766" at="98,17,99,111" concept="0" />
-      <node id="6806273752687136363" at="99,111,100,198" concept="0" />
-      <node id="6806273752687119342" at="100,198,101,22" concept="4" />
-      <node id="6806273752687119342" at="94,0,103,0" concept="6" trace="createDescriptorForOutputField#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="6806273752687119342" at="95,69,96,178" concept="3" />
+      <node id="6806273752687119342" at="96,178,97,34" concept="0" />
+      <node id="6806273752687119342" at="97,34,98,119" concept="0" />
+      <node id="6806273752687119342" at="98,119,99,17" concept="0" />
+      <node id="6806273752687294766" at="99,17,100,111" concept="0" />
+      <node id="6806273752687136363" at="100,111,101,198" concept="0" />
+      <node id="6806273752687119342" at="101,198,102,22" concept="4" />
+      <node id="6806273752687119342" at="95,0,104,0" concept="6" trace="createDescriptorForOutputField#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="6806273752687119342" at="50,45,51,36" />
-      <scope id="6806273752687119342" at="94,69,101,22">
+      <scope id="6806273752687119342" at="95,69,102,22">
         <var name="b" id="6806273752687119342" />
       </scope>
-      <scope id="6806273752687119342" at="94,0,103,0" />
+      <scope id="6806273752687119342" at="95,0,104,0" />
     </file>
   </root>
   <root nodeRef="r:21576557-f0a1-483f-809e-03df5b1e3103(khonraad.mps.tutorial.calculator.structure)/6806273752687230389">
@@ -144,19 +145,19 @@
     <file name="StructureAspectDescriptor.java">
       <node id="6806273752687230389" at="19,0,20,0" concept="1" trace="myConceptInputFieldReference" />
       <node id="6806273752687230389" at="48,53,49,44" concept="4" />
-      <node id="6806273752687230389" at="85,77,86,186" concept="3" />
-      <node id="6806273752687230389" at="86,186,87,34" concept="0" />
-      <node id="6806273752687230389" at="87,34,88,121" concept="0" />
-      <node id="6806273752687230389" at="88,121,89,119" concept="0" />
-      <node id="6806273752687230389" at="89,119,90,17" concept="0" />
-      <node id="6806273752687230390" at="90,17,91,169" concept="0" />
-      <node id="6806273752687230389" at="91,169,92,22" concept="4" />
-      <node id="6806273752687230389" at="85,0,94,0" concept="6" trace="createDescriptorForInputFieldReference#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="6806273752687230389" at="86,77,87,186" concept="3" />
+      <node id="6806273752687230389" at="87,186,88,34" concept="0" />
+      <node id="6806273752687230389" at="88,34,89,121" concept="0" />
+      <node id="6806273752687230389" at="89,121,90,119" concept="0" />
+      <node id="6806273752687230389" at="90,119,91,17" concept="0" />
+      <node id="6806273752687230390" at="91,17,92,169" concept="0" />
+      <node id="6806273752687230389" at="92,169,93,22" concept="4" />
+      <node id="6806273752687230389" at="86,0,95,0" concept="6" trace="createDescriptorForInputFieldReference#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="6806273752687230389" at="48,53,49,44" />
-      <scope id="6806273752687230389" at="85,77,92,22">
+      <scope id="6806273752687230389" at="86,77,93,22">
         <var name="b" id="6806273752687230389" />
       </scope>
-      <scope id="6806273752687230389" at="85,0,94,0" />
+      <scope id="6806273752687230389" at="86,0,95,0" />
     </file>
   </root>
 </debug-info>
